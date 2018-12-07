@@ -3,9 +3,21 @@
     <head>
         <meta charset="utf-8">
         <title>Page Speed Test 123</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+        <script type="text/javascript">
+            window.addEventListener('load', function () {
+                setTimeout(function(){
+                    $('.js-picture').append("<img src='https://placehold.it/1000x1000'>");
+                }, 2000);
+            }, false);
+        </script>
     </head>
     <body>
 
+        <div class="js-picture">
+
+        </div>
         <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi fermentum, magna vitae ullamcorper scelerisque, justo lorem mattis eros, ut interdum augue felis vitae leo. Aenean in sagittis nisi. Nulla eu elementum urna. Sed non commodo ante, et tempor neque. Praesent pellentesque efficitur venenatis. Donec eleifend risus eu turpis tempor fermentum. Donec in augue et libero varius pellentesque. Mauris dictum lacus ac sodales fermentum. Aenean ut mattis risus, et ultricies ipsum. Nunc    egestas at sem eget lobortis. Sed facilisis sapien ac tellus bibendum, faucibus efficitur libero pellentesque.
         </p>
